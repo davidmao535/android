@@ -2,6 +2,9 @@
 <manifest>
 
   <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="los"
            fetch=".."
            review="review.lineageos.org" />
 
@@ -17,7 +20,7 @@
            fetch="https://github.com/davidmao535" />
   
   <default revision="refs/heads/cm-14.1"
-           remote="github"
+           remote="los"
            clone-depth="1"
            sync-c="true"
            sync-j="4" />
